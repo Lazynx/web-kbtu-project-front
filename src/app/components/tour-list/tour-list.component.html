@@ -1,0 +1,9 @@
+<div class="tour-list">
+    <div *ngIf="tours$ | async as tours" class="tour-container">
+      <div *ngFor="let tour of tours" class="tour-item">
+        <app-tour-card [tour]="tour"></app-tour-card>
+      </div>
+    </div>
+    <p *ngIf="(tours$ | async) === null">Loading...</p>
+  </div>
+  

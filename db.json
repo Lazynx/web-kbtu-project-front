@@ -1,0 +1,21 @@
+{
+    "tours": [
+      {
+        "id": 1,
+        "name": "France SPA",
+        "image": "https://avatars.mds.yandex.net/i?id=bf644a6e6e6c29d999f6fd8423a7b29ac27589a7-6503679-images-thumbs&n=13",
+        "price": 236387,
+        "stars": 5,
+        "location": "France"
+      },
+      {
+        "id": 2,
+        "name": "Italy Hotel",
+        "image": "https://avatars.mds.yandex.net/i?id=929ffc9264d31d9279ba01c0e2d5dfddeb7c7c63-9222271-images-thumbs&n=13",
+        "price": 156272,
+        "stars": 4,
+        "location": "Italy"
+      }
+    ]
+  }
+  
