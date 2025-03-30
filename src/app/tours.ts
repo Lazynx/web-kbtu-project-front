@@ -5,5 +5,6 @@ export interface Tour {
     price: number;
     stars: number;
     location: string;
+    description: string;
   }
   

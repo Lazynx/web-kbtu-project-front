@@ -1,23 +1,28 @@
 import { Component, OnInit } from '@angular/core';
 import { TourService } from '../../services/tour.service';
-import { Observable } from 'rxjs';
 import { Tour } from '../../tours';
-import { TourCardComponent } from '../tour-card/tour-card.component';
+import { Router } from '@angular/router';
 import { NgFor, NgIf, AsyncPipe } from '@angular/common';
 
 @Component({
   selector: 'app-tour-list',
   standalone: true,
-  imports: [TourCardComponent, NgFor, NgIf, AsyncPipe],
+  imports: [NgFor, NgIf, AsyncPipe],
   templateUrl: './tour-list.component.html',
   styleUrls: ['./tour-list.component.css']
 })
 export class TourListComponent implements OnInit {
-  tours$!: Observable<Tour[]>;
+  tours: Tour[] = [];
 
-  constructor(private tourService: TourService) {}
+  constructor(private router: Router, private tourService: TourService) {}
 
-  ngOnInit(): void {
-    this.tours$ = this.tourService.getTours();
+  ngOnInit() {
+    this.tourService.getTours().subscribe(tours => {
+      this.tours = tours;
+    });
+  }
+
+  viewTour(id: number) {
+    this.router.navigate(['/tour', id]);
   }
 }

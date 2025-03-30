@@ -1,9 +1,17 @@
-<div class="tour-list">
-    <div *ngIf="tours$ | async as tours" class="tour-container">
-      <div *ngFor="let tour of tours" class="tour-item">
-        <app-tour-card [tour]="tour"></app-tour-card>
+<div *ngIf="tours.length > 0; else loading" class="tour-container">
+  <div *ngFor="let tour of tours" class="tour-item">
+    <div class="card">
+      <img [src]="tour.image" alt="{{ tour.name }}" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">{{ tour.name }}</h5>
+        <p><strong>Location:</strong> {{ tour.location }}</p>
+        <p><strong>Price:</strong> {{ tour.price }} tg</p>
+        <p><strong>Rating:</strong> {{ tour.stars }}</p>
+        <button (click)="viewTour(tour.id)">View Details</button>
       </div>
     </div>
-    <p *ngIf="(tours$ | async) === null">Loading...</p>
   </div>
-  
+</div>
+<ng-template #loading>
+  <p>Loading...</p>
+</ng-template>
