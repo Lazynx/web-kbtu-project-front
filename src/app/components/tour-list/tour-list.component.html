@@ -1,5 +1,7 @@
-<div *ngIf="tours.length > 0; else loading" class="tour-container">
-  <div *ngFor="let tour of tours" class="tour-item">
+<app-filter (filterChange)="applyFilter($event)"></app-filter>
+
+<div *ngIf="filteredTours.length > 0; else loading" class="tour-container">
+  <div *ngFor="let tour of filteredTours" class="tour-item">
     <div class="card">
       <img [src]="tour.image" alt="{{ tour.name }}" class="card-img-top">
       <div class="card-body">

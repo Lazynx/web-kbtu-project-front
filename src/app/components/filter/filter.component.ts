@@ -11,7 +11,7 @@ import { FormsModule } from '@angular/forms';
 })
 export class FilterComponent {
   stars = '';
-  @Output() filterChange = new EventEmitter<any>();
+  @Output() filterChange = new EventEmitter<{ stars: string }>();
 
   applyFilter() {
     this.filterChange.emit({ stars: this.stars });

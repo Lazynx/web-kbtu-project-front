@@ -5,8 +5,9 @@
             <a [routerLink]="['/']">Home</a>
             <a href="#">Tours</a>
             <a [routerLink]="['/contacts']">Contacts</a>
-            <a href="#" id="bot">Assistant bot</a>
+            <a href="#">Assistant bot</a>
         </nav>
-        <p>+7 777 11 22</p>
+        <a id="log" [routerLink]="['/login']" *ngIf="!(isLoggedIn)">Login</a>
+        <button id="log" (click)="logout()" *ngIf="isLoggedIn">Logout</button>
     </div>
 </header>

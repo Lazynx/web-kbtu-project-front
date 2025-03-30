@@ -82,5 +82,14 @@
     "oldPrice": 3000000,
     "newPrice": 3000,
     "location": "Turkey"
-  }
+  },
+
+  "users": [
+    {
+      "id": 1,
+      "username": "user1",
+      "password": "1234567890",
+      "role": "user"
+    }
+  ]
 }
