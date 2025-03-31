@@ -2,77 +2,174 @@
   "tours": [
     {
       "id": 1,
-      "name": "France, Paris",
-      "image": "https://cdn.lifehacker.ru/wp-content/uploads/2017/09/wallpapersdsc-net_1504387094-1600x800.jpg",
-      "price": 2300000,
+      "name": "ARALIYA BEACH RESORT",
+      "image": "assets/1.png",
+      "price": 520,
       "stars": 5,
-      "location": "France",
-      "description": "Embark on an unforgettable journey through Paris, the City of Light, and immerse yourself in its rich history, iconic landmarks, and vibrant culture. This comprehensive tour offers a perfect blend of guided exploration and personal discovery, ensuring you experience the best that Paris has to offer."
+      "location": "Sri-Lanka",
+      "description": "A beautiful beach resort with scenic views and top-class amenities."
     },
     {
       "id": 2,
-      "name": "Italy, Rome",
-      "image": "https://avatars.mds.yandex.net/i?id=6526bcb0ddf91aed5f6c1e3bd3c803a9_l-9460549-images-thumbs&n=13",
-      "price": 2000000,
+      "name": "PARALIA BEACH PHU QUOC",
+      "image": "assets/2.png",
+      "price": 344,
       "stars": 4,
-      "location": "Italy",
-      "description": "Embark on a journey through the heart of ancient civilization and experience the timeless beauty of Rome. From awe-inspiring ruins to vibrant piazzas, this tour offers a perfect blend of history, culture, and breathtaking landmarks."
+      "location": "Phu Quoc",
+      "description": "A tropical paradise with crystal-clear water and relaxing atmosphere."
     },
     {
       "id": 3,
-      "name": "Kazakhstan, Almaty",
-      "image": "https://vsegda-pomnim.com/uploads/posts/2022-04/1650927413_53-vsegda-pomnim-com-p-almati-gori-foto-55.jpg",
-      "price": 1000000,
+      "name": "GRAND BELLA HOTEL",
+      "image": "assets/3.png",
+      "price": 344,
       "stars": 4,
-      "location": "Almaty",
-      "description": "Embark on a journey through the heart of ancient civilization and experience the timeless beauty of Rome. From awe-inspiring ruins to vibrant piazzas, this tour offers a perfect blend of history, culture, and breathtaking landmarks."
+      "location": "Thailand",
+      "description": "A cozy and comfortable stay near the best attractions in Thailand."
     },
     {
       "id": 4,
-      "name": "Turkey, Istanbul",
-      "image": "https://cdnn21.img.ria.ru/images/07e6/01/11/1768212639_0:269:2803:1846_1920x1080_80_0_0_f03596ba5c8c1f430bf190b389aa3e27.jpg",
-      "price": 1000000,
-      "stars": 5,
-      "location": "Istanbul",
-      "description": "Embark on a journey through the heart of ancient civilization and experience the timeless beauty of Rome. From awe-inspiring ruins to vibrant piazzas, this tour offers a perfect blend of history, culture, and breathtaking landmarks."
-    }
-    ,
+      "name": "FORTUNE HOTEL DEIRA",
+      "image": "assets/4.png",
+      "price": 350,
+      "stars": 3,
+      "location": "Dubai",
+      "description": "An affordable yet luxurious stay in the heart of Dubai."
+    },
     {
       "id": 5,
-      "name": "Brazil, Rio",
-      "image": "https://sun9-27.userapi.com/impf/c844521/v844521812/20355c/OJ7jOWoMnz8.jpg?size=1000x713&quality=96&sign=a61b70973b607c6e33f1de8f14f634ce&c_uniq_tag=p0SPQ86UYEbISda8FvzgVdfF8NuQD6q1A4AItJUK84k&type=album",
-      "price": 10000000,
-      "stars": 5,
-      "location": "Rio de Janeiro",
-      "description": "Embark on a journey through the heart of ancient civilization and experience the timeless beauty of Rome. From awe-inspiring ruins to vibrant piazzas, this tour offers a perfect blend of history, culture, and breathtaking landmarks."
+      "name": "SANDS DOWNTOWN HOTEL",
+      "image": "assets/5.png",
+      "price": 509,
+      "stars": 4,
+      "location": "Antalia",
+      "description": "Experience the best of Antalya with modern amenities and comfort."
     },
     {
       "id": 6,
-      "name": "Greece, Athens",
-      "image": "https://cdn.tripster.ru/thumbs2/57ce16dc-e9f3-11ee-9ec7-c6eb7a045ffa.1600x900.jpeg?width=1200&height=630",
-      "price": 10000000,
-      "stars": 5,
-      "location": "Greece",
-      "description": "Embark on a journey through the heart of ancient civilization and experience the timeless beauty of Rome. From awe-inspiring ruins to vibrant piazzas, this tour offers a perfect blend of history, culture, and breathtaking landmarks."
-    }
-    ,
+      "name": "ISTANBUL GRAND HOTEL",
+      "image": "assets/6.png",
+      "price": 344,
+      "stars": 4,
+      "location": "Istanbul",
+      "description": "A charming hotel with historical surroundings and excellent service."
+    },
     {
       "id": 7,
-      "name": "Mexico",
-      "image": "https://i.pinimg.com/originals/05/fa/d3/05fad3eec2d5d8349a63e263d8a7ee5e.jpg",
-      "price": 1500000,
-      "stars": 3,
-      "location": "Mexico",
-      "description": "Embark on a journey through the heart of ancient civilization and experience the timeless beauty of Rome. From awe-inspiring ruins to vibrant piazzas, this tour offers a perfect blend of history, culture, and breathtaking landmarks."
+      "name": "OCEAN VIEW PARADISE",
+      "image": "assets/7.png",
+      "price": 420,
+      "stars": 5,
+      "location": "Maldives",
+      "description": "Luxury villas with a private beach and breathtaking ocean views."
     },
     {
       "id": 8,
-      "name": "Hawaii",
-      "image": "https://wallpapers.com/images/hd/hawaii-hamoa-beach-bedxfmj1ciysotxl.jpg",
-      "price": 1500000,
+      "name": "HORIZON SKY HOTEL",
+      "image": "assets/8.png",
+      "price": 290,
+      "stars": 3,
+      "location": "Greece",
+      "description": "A budget-friendly stay with a fantastic sea view and great service."
+    },
+    {
+      "id": 9,
+      "name": "TROPICAL BREEZE RESORT",
+      "image": "assets/9.png",
+      "price": 380,
+      "stars": 4,
+      "location": "Bali",
+      "description": "An exotic resort surrounded by lush greenery and sandy beaches."
+    },
+    {
+      "id": 10,
+      "name": "CITY LIGHTS HOTEL",
+      "image": "assets/10.png",
+      "price": 310,
+      "stars": 3,
+      "location": "New York",
+      "description": "A comfortable city hotel in the heart of Manhattan."
+    },
+    {
+      "id": 11,
+      "name": "ROYAL PALACE HOTEL",
+      "image": "assets/11.png",
+      "price": 590,
+      "stars": 5,
+      "location": "Paris",
+      "description": "An elegant luxury hotel near the Eiffel Tower with world-class service."
+    },
+    {
+      "id": 12,
+      "name": "DESERT MIRAGE RESORT",
+      "image": "assets/12.png",
+      "price": 275,
+      "stars": 3,
+      "location": "Marrakech",
+      "description": "An oasis in the desert with traditional Moroccan charm."
+    },
+    {
+      "id": 13,
+      "name": "ALPINE RETREAT HOTEL",
+      "image": "assets/13.png",
+      "price": 410,
+      "stars": 4,
+      "location": "Switzerland",
+      "description": "A cozy mountain retreat with stunning views of the Alps."
+    },
+    {
+      "id": 14,
+      "name": "PACIFIC WAVES HOTEL",
+      "image": "assets/14.png",
+      "price": 350,
       "stars": 4,
       "location": "Hawaii",
-      "description": "Embark on a journey through the heart of ancient civilization and experience the timeless beauty of Rome. From awe-inspiring ruins to vibrant piazzas, this tour offers a perfect blend of history, culture, and breathtaking landmarks."
+      "description": "A beachfront hotel with direct access to the waves and surf spots."
+    },
+    {
+      "id": 15,
+      "name": "SAND DUNES LUXURY RESORT",
+      "image": "assets/15.png",
+      "price": 600,
+      "stars": 5,
+      "location": "Dubai",
+      "description": "An exclusive desert resort with world-class luxury and comfort."
+    },
+    {
+      "id": 16,
+      "name": "NORTHERN LIGHTS HOTEL",
+      "image": "assets/16.png",
+      "price": 375,
+      "stars": 4,
+      "location": "Norway",
+      "description": "A unique hotel where you can witness the breathtaking aurora borealis."
+    },
+    {
+      "id": 17,
+      "name": "JUNGLE ESCAPE LODGE",
+      "image": "assets/17.png",
+      "price": 260,
+      "stars": 3,
+      "location": "Costa Rica",
+      "description": "A nature-lover’s paradise surrounded by rainforests and wildlife."
+    },
+    {
+      "id": 18,
+      "name": "SUNSET BAY HOTEL",
+      "image": "assets/18.png",
+      "price": 335,
+      "stars": 4,
+      "location": "California",
+      "description": "A coastal retreat with mesmerizing sunset views over the bay."
+    },
+    {
+      "id": 19,
+      "name": "GRAND HORIZON HOTEL",
+      "image": "assets/19.png",
+      "price": 480,
+      "stars": 5,
+      "location": "Tokyo",
+      "description": "A high-rise luxury hotel in the heart of Tokyo with panoramic city views."
     }
   ],
   "hotTour": {
@@ -83,7 +180,6 @@
     "newPrice": 3000,
     "location": "Turkey"
   },
-
   "users": [
     {
       "id": 1,
