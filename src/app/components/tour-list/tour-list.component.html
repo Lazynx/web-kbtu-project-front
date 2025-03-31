@@ -15,8 +15,9 @@
       <h3>Price: ${{ priceRange }}</h3>
       <input 
         type="range" 
-        min="0" 
+        min="200" 
         [max]="maxPrice" 
+        step="100"
         [(ngModel)]="priceRange" 
         (input)="filterTours()"
       >

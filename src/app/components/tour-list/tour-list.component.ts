@@ -186,7 +186,7 @@ export class TourListComponent implements OnInit {
   }];
   filteredTours: Tour[] = [];
   selectedStars: number[] = [];
-  priceRange: number = 0;
+  priceRange: number = 200;
   maxPrice: number = 1000;
 
   constructor(private router: Router, private tourService: TourService) {}
@@ -212,7 +212,7 @@ export class TourListComponent implements OnInit {
   filterTours() {
     this.filteredTours = this.tours.filter(tour => {
       const starMatch = this.selectedStars.length === 0 || 
-                      this.selectedStars.includes(tour.stars);
+        this.selectedStars.includes(tour.stars);
       const priceMatch = tour.price >= this.priceRange;
       return starMatch && priceMatch;
     });
