@@ -1,6 +1,30 @@
-<app-filter (filterChange)="applyFilter($event)"></app-filter>
+<div class="filter-container">
+    <div class="stars-filter">
+      <h3>Star:</h3>
+      <label *ngFor="let star of [5,4,3]">
+        <input 
+          type="checkbox" 
+          (change)="toggleStar(star)"
+          [checked]="selectedStars.includes(star)"
+        >
+        <span class="stars">{{ '★★★★★'.slice(0, star) }}</span>
+      </label>
+    </div>
 
-<div *ngIf="filteredTours.length > 0; else loading" class="tour-container">
+    <div class="price-filter">
+      <h3>Price: ${{ priceRange }}</h3>
+      <input 
+        type="range" 
+        min="0" 
+        [max]="maxPrice" 
+        [(ngModel)]="priceRange" 
+        (input)="filterTours()"
+      >
+    </div>
+  </div>
+<div class="container">
+  
+<div class="tour-container">
   <div *ngFor="let tour of filteredTours" class="tour-item">
     <div class="card">
       <img [src]="tour.image" alt="{{ tour.name }}" class="card-img-top">
@@ -8,12 +32,10 @@
         <h5 class="card-title">{{ tour.name }}</h5>
         <p><strong>Location:</strong> {{ tour.location }}</p>
         <p><strong>Price:</strong> {{ tour.price }} $</p>
-        <p><strong>Rating:</strong> {{ tour.stars }}</p>
+        <p style="color: rgb(255, 217, 0); font-size:24px;">{{ '★★★★★'.slice(0, tour.stars) }}</p>
         <button (click)="viewTour(tour.id)">View Details</button>
       </div>
     </div>
   </div>
 </div>
-<ng-template #loading>
-  <p>Loading...</p>
-</ng-template>
+</div>
