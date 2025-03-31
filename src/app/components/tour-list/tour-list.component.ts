@@ -1,4 +1,3 @@
-// tour-list.component.ts
 import { Component, OnInit } from '@angular/core';
 import { TourService } from '../../services/tour.service';
 import { Tour } from '../../tours';
