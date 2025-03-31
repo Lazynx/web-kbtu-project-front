@@ -1,0 +1,95 @@
+{
+  "tours": [
+    {
+      "id": 1,
+      "name": "France, Paris",
+      "image": "https://cdn.lifehacker.ru/wp-content/uploads/2017/09/wallpapersdsc-net_1504387094-1600x800.jpg",
+      "price": 2300000,
+      "stars": 5,
+      "location": "France",
+      "description": "Embark on an unforgettable journey through Paris, the City of Light, and immerse yourself in its rich history, iconic landmarks, and vibrant culture. This comprehensive tour offers a perfect blend of guided exploration and personal discovery, ensuring you experience the best that Paris has to offer."
+    },
+    {
+      "id": 2,
+      "name": "Italy, Rome",
+      "image": "https://avatars.mds.yandex.net/i?id=6526bcb0ddf91aed5f6c1e3bd3c803a9_l-9460549-images-thumbs&n=13",
+      "price": 2000000,
+      "stars": 4,
+      "location": "Italy",
+      "description": "Embark on a journey through the heart of ancient civilization and experience the timeless beauty of Rome. From awe-inspiring ruins to vibrant piazzas, this tour offers a perfect blend of history, culture, and breathtaking landmarks."
+    },
+    {
+      "id": 3,
+      "name": "Kazakhstan, Almaty",
+      "image": "https://vsegda-pomnim.com/uploads/posts/2022-04/1650927413_53-vsegda-pomnim-com-p-almati-gori-foto-55.jpg",
+      "price": 1000000,
+      "stars": 4,
+      "location": "Almaty",
+      "description": "Embark on a journey through the heart of ancient civilization and experience the timeless beauty of Rome. From awe-inspiring ruins to vibrant piazzas, this tour offers a perfect blend of history, culture, and breathtaking landmarks."
+    },
+    {
+      "id": 4,
+      "name": "Turkey, Istanbul",
+      "image": "https://cdnn21.img.ria.ru/images/07e6/01/11/1768212639_0:269:2803:1846_1920x1080_80_0_0_f03596ba5c8c1f430bf190b389aa3e27.jpg",
+      "price": 1000000,
+      "stars": 5,
+      "location": "Istanbul",
+      "description": "Embark on a journey through the heart of ancient civilization and experience the timeless beauty of Rome. From awe-inspiring ruins to vibrant piazzas, this tour offers a perfect blend of history, culture, and breathtaking landmarks."
+    }
+    ,
+    {
+      "id": 5,
+      "name": "Brazil, Rio",
+      "image": "https://sun9-27.userapi.com/impf/c844521/v844521812/20355c/OJ7jOWoMnz8.jpg?size=1000x713&quality=96&sign=a61b70973b607c6e33f1de8f14f634ce&c_uniq_tag=p0SPQ86UYEbISda8FvzgVdfF8NuQD6q1A4AItJUK84k&type=album",
+      "price": 10000000,
+      "stars": 5,
+      "location": "Rio de Janeiro",
+      "description": "Embark on a journey through the heart of ancient civilization and experience the timeless beauty of Rome. From awe-inspiring ruins to vibrant piazzas, this tour offers a perfect blend of history, culture, and breathtaking landmarks."
+    },
+    {
+      "id": 6,
+      "name": "Greece, Athens",
+      "image": "https://cdn.tripster.ru/thumbs2/57ce16dc-e9f3-11ee-9ec7-c6eb7a045ffa.1600x900.jpeg?width=1200&height=630",
+      "price": 10000000,
+      "stars": 5,
+      "location": "Greece",
+      "description": "Embark on a journey through the heart of ancient civilization and experience the timeless beauty of Rome. From awe-inspiring ruins to vibrant piazzas, this tour offers a perfect blend of history, culture, and breathtaking landmarks."
+    }
+    ,
+    {
+      "id": 7,
+      "name": "Mexico",
+      "image": "https://i.pinimg.com/originals/05/fa/d3/05fad3eec2d5d8349a63e263d8a7ee5e.jpg",
+      "price": 1500000,
+      "stars": 3,
+      "location": "Mexico",
+      "description": "Embark on a journey through the heart of ancient civilization and experience the timeless beauty of Rome. From awe-inspiring ruins to vibrant piazzas, this tour offers a perfect blend of history, culture, and breathtaking landmarks."
+    },
+    {
+      "id": 8,
+      "name": "Hawaii",
+      "image": "https://wallpapers.com/images/hd/hawaii-hamoa-beach-bedxfmj1ciysotxl.jpg",
+      "price": 1500000,
+      "stars": 4,
+      "location": "Hawaii",
+      "description": "Embark on a journey through the heart of ancient civilization and experience the timeless beauty of Rome. From awe-inspiring ruins to vibrant piazzas, this tour offers a perfect blend of history, culture, and breathtaking landmarks."
+    }
+  ],
+  "hotTour": {
+    "id": 3,
+    "name": "Turkey. Cappadocia",
+    "image": "https://avatars.mds.yandex.net/i?id=6cdc308a615869f1583dada29ea6da35_l-10849343-images-thumbs&n=13",
+    "oldPrice": 3000000,
+    "newPrice": 3000,
+    "location": "Turkey"
+  },
+
+  "users": [
+    {
+      "id": 1,
+      "username": "user1",
+      "password": "1234567890",
+      "role": "user"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+<div *ngIf="tour$ | async as tour; else notFound" class="tour-info">
+    <img [src]="tour.image" alt="{{ tour.name }}" class="tour-image">
+    <div class="tour-details">
+      <h1>{{ tour.name }}</h1>
+      <p><strong>Location:</strong> {{ tour.location }}</p>
+      <p><strong>Price:</strong> {{ tour.price }} tg</p>
+      <p><strong>Stars:</strong> star{{ tour.stars }}</p>
+      <p class="description">{{ tour.description }}</p>
+      <button>Book Now</button>
+    </div>
+  </div>
+  
+  <ng-template #notFound>
+    <p>Tour not found.</p>
+  </ng-template>
+  
