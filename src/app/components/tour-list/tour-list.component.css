@@ -34,7 +34,6 @@
     text-align: left; 
     margin: 0%;  
 }
-
 .tour-item {
     width: 300px;
 }
@@ -85,5 +84,3 @@ button {
 button:hover {
     background-color: #e04d2a;
 }  
-
-  
