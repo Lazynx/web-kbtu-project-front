@@ -78,9 +78,11 @@ button {
     margin-top: 10px;
     width: 100%;
 }
-
-
   
 button:hover {
     background-color: #e04d2a;
 }  
+
+.stars {
+    color:rgb(255, 208, 0);
+}
