@@ -175,7 +175,7 @@
   "hotTour": {
     "id": 3,
     "name": "Turkey. Cappadocia",
-    "image": "https://avatars.mds.yandex.net/i?id=6cdc308a615869f1583dada29ea6da35_l-10849343-images-thumbs&n=13",
+    "image": "assets/banner2.png",
     "oldPrice": 3000000,
     "newPrice": 3000,
     "location": "Turkey"
