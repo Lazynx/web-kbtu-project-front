@@ -1,191 +1,175 @@
 {
   "tours": [
     {
-      "id": 1,
+      "id": "1",
       "name": "ARALIYA BEACH RESORT",
       "image": "assets/1.png",
       "price": 520,
       "stars": 5,
       "location": "Sri-Lanka",
-      "description": "A beautiful beach resort with scenic views and top-class amenities."
+      "description": "Wake up to the sound of waves and the scent of the ocean breeze at Araliya Beach Resort. This five-star gem in Sri Lanka is your ultimate tropical escape, offering world-class amenities, breathtaking views, and pure serenity.\n\nIndulge in luxurious spa treatments, feast on gourmet cuisine, and soak up the sun by the infinity pool. Whether you're seeking romance, adventure, or total relaxation — this is where unforgettable memories begin."
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "PARALIA BEACH PHU QUOC",
       "image": "assets/2.png",
       "price": 344,
       "stars": 4,
       "location": "Phu Quoc",
-      "description": "A tropical paradise with crystal-clear water and relaxing atmosphere."
+      "description": "Crystal-clear waters, golden sands, and lush palm trees — welcome to your personal paradise in Phu Quoc. Paralia Beach Resort is where you disconnect from the hustle and reconnect with nature and yourself.\n\nWith beachfront bungalows, a chilled-out vibe, and cocktails served under the stars, this tropical getaway is perfect for couples, honeymooners, or anyone craving that Instagram-perfect escape."
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "GRAND BELLA HOTEL",
       "image": "assets/3.png",
       "price": 344,
       "stars": 4,
       "location": "Thailand",
-      "description": "A cozy and comfortable stay near the best attractions in Thailand."
+      "description": "Grand Bella Hotel puts you in the heart of Thailand’s vibrant culture. You're just steps away from markets, temples, nightlife, and delicious street food that never sleeps.\n\nRelax in modern, cozy rooms, unwind by the rooftop pool, and let the city energize you. Whether you’re here to party or explore, this hotel is your stylish and affordable launchpad."
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "FORTUNE HOTEL DEIRA",
       "image": "assets/4.png",
       "price": 350,
       "stars": 3,
       "location": "Dubai",
-      "description": "An affordable yet luxurious stay in the heart of Dubai."
+      "description": "Get a taste of Dubai's glam without the luxury price tag. Fortune Hotel Deira offers comfort and elegance in the heart of the city, steps away from bustling souks and iconic skyscrapers.\n\nWhether you're on a business trip or a quick getaway, this hotel gives you premium comfort, rooftop views, and easy access to the city's hottest spots."
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "SANDS DOWNTOWN HOTEL",
       "image": "assets/5.png",
       "price": 509,
       "stars": 4,
       "location": "Antalia",
-      "description": "Experience the best of Antalya with modern amenities and comfort."
+      "description": "Live your Mediterranean dream at Sands Downtown Hotel in Antalya. Imagine waking up to sea breezes, sipping wine on the terrace, and diving into turquoise waters within minutes.\n\nBlending modern luxury with historic charm, this hotel is your gateway to everything — beaches, bazaars, ruins, and nightlife. Come for the views, stay for the vibe."
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "ISTANBUL GRAND HOTEL",
       "image": "assets/6.png",
       "price": 344,
       "stars": 4,
       "location": "Istanbul",
-      "description": "A charming hotel with historical surroundings and excellent service."
+      "description": "Get lost in the beauty of Istanbul’s rich culture while enjoying modern luxury at Istanbul Grand Hotel. Located near iconic landmarks like Hagia Sophia and the Grand Bazaar, it's a dream for history lovers.\n\nStart your day with Turkish coffee, explore ancient streets, and return to cozy, elegant rooms with five-star service. A perfect blend of East meets West."
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "OCEAN VIEW PARADISE",
       "image": "assets/7.png",
       "price": 420,
       "stars": 5,
       "location": "Maldives",
-      "description": "Luxury villas with a private beach and breathtaking ocean views."
+      "description": "Private beach. Overwater villa. Sunset in your infinity pool. Ocean View Paradise in the Maldives is what luxury dreams are made of.\n\nSnorkel in coral reefs, dine by the water, and lose yourself in the endless blues. This is not just a vacation — it’s a once-in-a-lifetime escape to absolute paradise."
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "HORIZON SKY HOTEL",
       "image": "assets/8.png",
       "price": 290,
       "stars": 3,
       "location": "Greece",
-      "description": "A budget-friendly stay with a fantastic sea view and great service."
+      "description": "Looking for charm on a budget? Horizon Sky Hotel in Greece offers epic views, Mediterranean cuisine, and a cozy vibe that’s hard to beat.\n\nExplore ancient ruins by day, chill on the beach by evening, and enjoy authentic Greek hospitality every moment in between."
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "TROPICAL BREEZE RESORT",
       "image": "assets/9.png",
       "price": 380,
       "stars": 4,
       "location": "Bali",
-      "description": "An exotic resort surrounded by lush greenery and sandy beaches."
+      "description": "Welcome to your Bali fantasy. Tropical Breeze Resort surrounds you with palm trees, exotic flowers, and golden beaches just a walk away.\n\nStart your morning with sunrise yoga, spend afternoons exploring temples, and wind down with a sunset cocktail and ocean breeze. Pure bliss awaits."
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "CITY LIGHTS HOTEL",
       "image": "assets/10.png",
       "price": 310,
       "stars": 3,
       "location": "New York",
-      "description": "A comfortable city hotel in the heart of Manhattan."
+      "description": "City vibes, skyline views, and all of Manhattan at your doorstep. City Lights Hotel is your gateway to NYC’s most iconic attractions.\n\nWhether you're chasing Broadway shows, high-end shopping, or late-night diners, this hotel gives you front-row access to the city that never sleeps — in style."
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "ROYAL PALACE HOTEL",
       "image": "assets/11.png",
       "price": 590,
       "stars": 5,
       "location": "Paris",
-      "description": "An elegant luxury hotel near the Eiffel Tower with world-class service."
+      "description": "Live like royalty in the heart of Paris. Royal Palace Hotel is elegance defined, with rooms fit for a king and views of the Eiffel Tower.\n\nSavor fine dining, stroll the Champs-Élysées, and immerse yourself in art, romance, and timeless charm. Paris is always a good idea — especially here."
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "DESERT MIRAGE RESORT",
       "image": "assets/12.png",
       "price": 275,
       "stars": 3,
       "location": "Marrakech",
-      "description": "An oasis in the desert with traditional Moroccan charm."
+      "description": "Step into a mystical Moroccan dream at Desert Mirage Resort in Marrakech. Think vibrant mosaics, rooftop terraces, and magical sunsets over the dunes.\n\nUnplug and unwind with traditional hammams, mint tea under the stars, and the exotic charm of Marrakech all around you."
     },
     {
-      "id": 13,
+      "id": "13",
       "name": "ALPINE RETREAT HOTEL",
       "image": "assets/13.png",
       "price": 410,
       "stars": 4,
       "location": "Switzerland",
-      "description": "A cozy mountain retreat with stunning views of the Alps."
+      "description": "Escape to the mountains and breathe in the crisp Alpine air at Alpine Retreat Hotel. Nestled in the Swiss Alps, this cozy hideaway is a snow-lover’s heaven in winter and a hiking dream in summer.\n\nWith fireplace lounges, panoramic balconies, and the purest nature all around, it’s the retreat your soul has been craving."
     },
     {
-      "id": 14,
+      "id": "14",
       "name": "PACIFIC WAVES HOTEL",
       "image": "assets/14.png",
       "price": 350,
       "stars": 4,
       "location": "Hawaii",
-      "description": "A beachfront hotel with direct access to the waves and surf spots."
+      "description": "Surf, sun, and aloha vibes — welcome to Pacific Waves Hotel in Hawaii. Steps from the beach, this tropical escape is perfect for thrill-seekers and chill-lovers alike.\n\nCatch waves by day, enjoy fire shows by night, and fall asleep to the sound of the ocean. Paradise is calling — are you in?"
     },
     {
-      "id": 15,
+      "id": "15",
       "name": "SAND DUNES LUXURY RESORT",
       "image": "assets/15.png",
       "price": 600,
       "stars": 5,
       "location": "Dubai",
-      "description": "An exclusive desert resort with world-class luxury and comfort."
+      "description": "Experience the ultimate desert fantasy at Sand Dunes Luxury Resort in Dubai. Ride camels at sunset, dine under the stars, and relax in extravagant suites fit for a sheikh.\n\nIt’s a mix of Arabian tradition and futuristic opulence — where every moment feels like a movie scene."
     },
     {
-      "id": 16,
+      "id": "16",
       "name": "NORTHERN LIGHTS HOTEL",
       "image": "assets/16.png",
       "price": 375,
       "stars": 4,
       "location": "Norway",
-      "description": "A unique hotel where you can witness the breathtaking aurora borealis."
+      "description": "Watch the sky dance above you at Northern Lights Hotel in Norway. This cozy Arctic getaway offers front-row seats to nature’s most magical show — the aurora borealis.\n\nWarm up in a sauna, enjoy Nordic cuisine, and fall asleep under glass ceilings as green lights swirl overhead. Bucket-list level experience guaranteed."
     },
     {
-      "id": 17,
+      "id": "17",
       "name": "JUNGLE ESCAPE LODGE",
       "image": "assets/17.png",
       "price": 260,
       "stars": 3,
       "location": "Costa Rica",
-      "description": "A nature-lover�s paradise surrounded by rainforests and wildlife."
+      "description": "Get wild in Costa Rica’s lush rainforests at Jungle Escape Lodge. Here, toucans wake you up and waterfalls guide your path.\n\nWith eco-chic cabins, thrilling adventures, and nature everywhere, this is your perfect off-the-grid reset with all the good vibes and zero stress."
     },
     {
-      "id": 18,
+      "id": "18",
       "name": "SUNSET BAY HOTEL",
       "image": "assets/18.png",
       "price": 335,
       "stars": 4,
       "location": "California",
-      "description": "A coastal retreat with mesmerizing sunset views over the bay."
+      "description": "Golden hour never looked so good. Sunset Bay Hotel in California offers epic ocean views, boho-chic rooms, and sunsets that hit your soul.\n\nChill on the beach, explore coastal towns, and snap that postcard-perfect photo — every evening ends with a view you’ll never forget."
     },
     {
-      "id": 19,
+      "id": "19",
       "name": "GRAND HORIZON HOTEL",
       "image": "assets/19.png",
       "price": 480,
       "stars": 5,
       "location": "Tokyo",
-      "description": "A high-rise luxury hotel in the heart of Tokyo with panoramic city views."
-    }
-  ],
-  "hotTour": {
-    "id": 3,
-    "name": "Turkey. Cappadocia",
-    "image": "assets/banner2.png",
-    "oldPrice": 3000000,
-    "newPrice": 3000,
-    "location": "Turkey"
-  },
-  "users": [
-    {
-      "id": 1,
-      "username": "user1",
-      "password": "1234567890",
-      "role": "user"
+      "description": "Sky-high views and cutting-edge design — welcome to Grand Horizon Hotel in Tokyo. Located in the city’s heart, it gives you instant access to neon streets, sushi spots, and peaceful temples.\n\nRecharge in sleek rooms above the skyline, enjoy Michelin-level dining, and live Tokyo’s electric pulse in full style."
     }
   ]
 }

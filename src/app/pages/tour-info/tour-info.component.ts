@@ -24,6 +24,7 @@ export class TourInfoComponent {
         const foundTour = tours.find(t => String(t.id) === String(tourId));
         console.log('Found tour:', foundTour);
         return foundTour;
+        
       })
     );
   }

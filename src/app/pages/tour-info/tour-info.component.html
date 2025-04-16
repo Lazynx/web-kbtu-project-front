@@ -4,7 +4,7 @@
       <h1>{{ tour.name }}</h1>
       <p><strong>Location:</strong> {{ tour.location }}</p>
       <p><strong>Price:</strong> {{ tour.price }} tg</p>
-      <p><strong>Stars:</strong> star{{ tour.stars }}</p>
+      <p style="color: rgb(255, 217, 0); font-size:32px;">{{ '★★★★★'.slice(0, tour.stars) }}</p>
       <p class="description">{{ tour.description }}</p>
       <button>Book Now</button>
     </div>
