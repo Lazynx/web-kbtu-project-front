@@ -1,15 +1,28 @@
 import { Component } from '@angular/core';
-import { RouterModule, Router } from '@angular/router';
-import { HeaderComponent } from './components/header/header.component';
-import { FooterComponent } from './components/footer/footer.component';
+import { RouterLink, RouterOutlet } from '@angular/router';
+import { AuthService } from './services/auth.service';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterModule, HeaderComponent, FooterComponent],
+  imports: [CommonModule, RouterOutlet, RouterLink],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'web-dev-project';
+  isAuthenticated: boolean = false;
+
+  constructor(private authService: AuthService) {
+    this.authService.isAuthenticated().subscribe((status) => {
+      this.isAuthenticated = status;
+    });
+  }
+
+  logout(): void {
+    this.authService.logout().subscribe({
+      next: () => {
+        window.location.href = '/login';
+      },
+    });
+  }
 }

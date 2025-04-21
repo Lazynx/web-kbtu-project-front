@@ -1,42 +1,67 @@
-<div class="filter-container">
-    <div class="stars-filter">
-      <h3>Star:</h3>
-      <label *ngFor="let star of [5,4,3]">
-        <input 
-          type="checkbox" 
-          (change)="toggleStar(star)"
-          [checked]="selectedStars.includes(star)"
-        >
-        <span class="stars">{{ '★★★★★'.slice(0, star) }}</span>
-      </label>
-    </div>
-
-    <div class="price-filter">
-      <h3>Price: ${{ priceRange }}</h3>
-      <input 
-        type="range" 
-        min="200" 
-        [max]="maxPrice" 
-        step="100"
-        [(ngModel)]="priceRange" 
-        (input)="filterTours()"
-      >
-    </div>
-  </div>
-<div class="container">
-  
-<div class="tour-container">
-  <div *ngFor="let tour of filteredTours" class="tour-item">
-    <div class="card">
-      <img [src]="tour.image" alt="{{ tour.name }}" class="card-img-top">
-      <div class="card-body">
-        <h5 class="card-title">{{ tour.name }}</h5>
-        <p><strong>Location:</strong> {{ tour.location }}</p>
-        <p><strong>Price:</strong> {{ tour.price }} $</p>
-        <p style="color: rgb(255, 217, 0); font-size:24px;">{{ '★★★★★'.slice(0, tour.stars) }}</p>
-        <button (click)="viewTour(tour.id)">View Details</button>
+<div class="container mx-auto px-4 py-4">
+  <!-- Фильтры -->
+  <div class="bg-white p-6 rounded-2xl shadow-md border border-gray-100 mb-8">
+    <h2 class="text-xl font-bold mb-6 text-gray-800 flex items-center">
+      <svg class="w-5 h-5 mr-2 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z"></path>
+      </svg>
+      Фильтры
+    </h2>
+    <div class="space-y-6">
+      <div>
+        <label class="block text-sm font-medium text-gray-700 mb-3">Рейтинг</label>
+        <div class="space-y-3">
+          <label *ngFor="let star of [5, 4, 3]" class="flex items-center cursor-pointer group">
+            <input
+              type="checkbox"
+              [checked]="selectedStars.includes(star)"
+              (change)="toggleStar(star)"
+              class="form-checkbox text-orange-500 h-5 w-5 mr-3 focus:ring-orange-500"
+            />
+            <span class="flex items-center text-yellow-400 group-hover:text-yellow-500 transition">{{ '★★★★★'.slice(0, star) }}</span>
+          </label>
+        </div>
+      </div>
+      <div class="border-t border-gray-100 pt-6">
+        <label class="block text-sm font-medium text-gray-700 mb-3">Цена: {{ priceRange }} т.</label>
+        <input
+          type="range"
+          [min]="200"
+          [max]="maxPrice"
+          step="100"
+          [(ngModel)]="priceRange"
+          (input)="filterTours()"
+          class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-orange-500"
+        />
       </div>
     </div>
   </div>
-</div>
+
+  <!-- Список туров -->
+  <div *ngIf="loading" class="text-center py-8 text-gray-600">Загрузка...</div>
+  <div *ngIf="!loading" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div *ngFor="let tour of filteredTours" class="bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden hover:shadow-lg transition-shadow duration-300">
+      <img
+        *ngIf="tour.photo_urls?.length"
+        [src]="tour.photo_urls[0]"
+        [alt]="tour.name"
+        class="w-full h-48 object-cover"
+      />
+      <div class="p-6">
+        <h2 class="text-lg font-semibold text-gray-800 truncate mb-2">{{ tour.name }}</h2>
+        <p class="text-gray-600 text-sm mb-2"><strong>Категория:</strong> {{ tour.category.name }}</p>
+        <p class="text-gray-600 text-sm mb-2"><strong>Цена:</strong> {{ formatPrice(tour.price) }} т.</p>
+        <p class="text-yellow-400 text-lg mb-4">
+          {{ '★★★★★'.slice(0, getAverageRating(tour).stars) }}
+          <span class="text-gray-500 text-sm">{{ getAverageRating(tour).display }}</span>
+        </p>
+        <button
+          (click)="viewTour(tour.id)"
+          class="w-full bg-gradient-to-r from-orange-500 to-orange-600 text-white px-6 py-2.5 rounded-full font-medium shadow-md hover:shadow-lg transform hover:-translate-y-0.5 transition duration-300"
+        >
+          Забронировать
+        </button>
+      </div>
+    </div>
+  </div>
 </div>

@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HotTourComponent } from './hot-tour.component';
+import { RegisterComponent } from './register.component';
 
-describe('HotTourComponent', () => {
-  let component: HotTourComponent;
-  let fixture: ComponentFixture<HotTourComponent>;
+describe('RegisterComponent', () => {
+  let component: RegisterComponent;
+  let fixture: ComponentFixture<RegisterComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [HotTourComponent]
+      imports: [RegisterComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(HotTourComponent);
+    fixture = TestBed.createComponent(RegisterComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

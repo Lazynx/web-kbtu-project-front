@@ -5,27 +5,30 @@ import { FormsModule } from '@angular/forms';
 import { NgIf } from '@angular/common';
 
 @Component({
-  selector: 'app-login',
+  selector: 'app-register',
   standalone: true,
   imports: [FormsModule, NgIf],
-  templateUrl: './login.component.html',
-  styleUrls: ['./login.component.css'],
+  templateUrl: './register.component.html',
+  styleUrls: ['./register.component.css'],
 })
-export class LoginComponent {
+export class RegisterComponent {
   username: string = '';
+  email: string = '';
   password: string = '';
   error: string = '';
 
   constructor(private authService: AuthService, private router: Router) {}
 
   onSubmit(): void {
-    this.authService.login(this.username, this.password).subscribe({
-      next: () => {
-        this.router.navigate(['/']);
-      },
-      error: (err: String) => {
-        this.error = 'Invalid credentials';
-      },
-    });
+    this.authService
+      .register({ username: this.username, email: this.email, password: this.password })
+      .subscribe({
+        next: () => {
+          this.router.navigate(['/login']);
+        },
+        error: (err) => {
+          this.error = 'Registration failed';
+        },
+      });
   }
 }
