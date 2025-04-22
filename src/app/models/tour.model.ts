@@ -20,7 +20,7 @@ export interface Tour {
     comment: string;
     created_at: string;
   }
-  
+
   export interface TourFilter {
     category_id?: string;
     min_price?: number;

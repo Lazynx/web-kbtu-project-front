@@ -14,11 +14,11 @@ export class TourService {
   getTours(filters: TourFilter = {}): Observable<Tour[]> {
     let params = new HttpParams();
     if (filters.category_id) params = params.set('category_id', filters.category_id);
-    if (filters.min_price) params = params.set('min_price', filters.min_price.toString());
-    if (filters.max_price) params = params.set('max_price', filters.max_price.toString());
+    if (filters.min_price !== undefined) params = params.set('min_price', filters.min_price.toString());
+    if (filters.max_price !== undefined) params = params.set('max_price', filters.max_price.toString());
     if (filters.start_date) params = params.set('start_date', filters.start_date);
     return this.http.get<Tour[]>(`${this.apiUrl}/`, { params });
-  }
+  }  
 
   getTourById(tourId: string): Observable<Tour> {
     return this.http.get<Tour>(`${this.apiUrl}/${tourId}/`);
