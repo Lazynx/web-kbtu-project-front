@@ -5,6 +5,7 @@ export interface Tour {
     price: string;
     start_date: string;
     end_date: string;
+    rating: number;
     category: { id: string; name: string; description: string };
     is_active: boolean;
     reviews: Review[];

@@ -70,7 +70,10 @@ export class TourInfoComponent {
       }
       if (this.tour) {
         this.reviewService
-          .createReview({ tour: this.tour.id, rating: this.rating, comment: this.comment })
+          .createReview({ 
+            tour: this.tour.id, 
+            rating: this.rating, 
+            comment: this.comment })
           .subscribe({
             next: () => {
               alert('Review submitted successfully!');
