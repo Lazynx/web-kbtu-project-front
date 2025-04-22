@@ -9,7 +9,6 @@ import { NgIf } from '@angular/common';
   standalone: true,
   imports: [FormsModule, NgIf, RouterModule],
   templateUrl: './register.component.html',
-  styleUrls: ['./register.component.css'],
 })
 export class RegisterComponent {
   username: string = '';
