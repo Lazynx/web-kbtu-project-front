@@ -84,6 +84,17 @@ export class HomeComponent {
     });
   }
   
+  resetFilters(): void {
+    this.filters = {
+      category_id: '',
+      min_price: 0,
+      max_price: 10000000,
+      start_date: '',
+      stars: []
+    };
+    this.applyFilters();
+  }
+  
 
   fetchTours(): void {
     this.applyFilters();
